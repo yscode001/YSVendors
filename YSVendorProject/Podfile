@@ -1,0 +1,16 @@
+platform :ios, '10.0'
+
+use_frameworks!
+
+target 'YSVendorProject' do
+  
+  # 基于以下三方库的封装
+  pod 'SDWebImage', '5.10.2'
+  pod 'MJRefresh', '3.5.0'
+  
+  # 依赖库
+  pod 'YSKit', :path => 'DependencyKit/YSKit'
+  
+  pod 'YSVendor', :path => 'YSVendor'
+  
+end
